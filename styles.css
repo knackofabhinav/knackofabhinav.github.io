@@ -1,18 +1,6 @@
-body {
-    color: red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap');
 
-h1 {
-    color: blue;
-}
-
-h2 {
-    color: green;
-}
-
-#lib-header {
-    color: grey;
-}
-.para {
-    color: hotpink;
+body{
+    font-family: 'Raleway', sans-serif;
+    
 }
