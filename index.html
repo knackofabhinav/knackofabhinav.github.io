@@ -1,144 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-    <link href="styles.css" rel="stylesheet" />
+    <title>Home | Abhinav Niranjan</title>
+    <link rel="stylesheet" href="lib/styles.css">
 </head>
-
 <body>
-    <h1>Abhinav's Component Library</h1>
-    <p>Welcome to Abhinav Componet library. this is a part of neogcamp live session taken by tanay pratap where we are
-        going to discuss about HTML and CSS.</p>
 
-    <hr>
-
-    <h2>@Typography</h2>
-
-    <h1>This is the biggest heading.</h1>
-    <h2>This is the second biggest</h2>
-    <p>This is a normal text. This is free flowing and will wrap at the end like a paragraph</p>
-    <p>This Paragraph will have <strong>bold</strong> text.</p>
-    <p>This paragraph will have <em>italic</em> text.</p>
-    <small>This is the relative smaller text.</small>
-
-    <hr>
-
-    <h2>@Containers</h3>
-        <h3>fluid container</h3>
-        <div class="container">This is a fluid container and it will go till the end of this page.</div>
-        <h3>center container</h3>
-        <div class="container container-center">This is a center container and it will go to a specific width.</div>
-
-        <hr>
-
-        <h2>@links</h2>
-        <a href="" class="link link-primary">Primary Link</a>
-        <a href="" class="link link-secondary">Secondary Link</a>
-
-        <hr>
-
-        <h2>@lists</h2>
-        <h3>Unordered lists</h3>
-        <p>We dont want to show bullets in the unordered list. We'll remove that with CSS.</p>
-
-        <ul class="list-non-bullet">
-            <li class="list-item-inline">Item One</li>
-            <li class="list-item-inline">Item Two</li>
-            <li class="list-item-inline">Item Three</li>
-
+    <nav class="navigation container">
+        <div class="nav-brand">KNACKOFABHINAV</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
         </ul>
-
-        <h3>unordered inline list</h3>
-
-        <ul class="list-non-bullet">
-            <li>Inline item 1</li>
-            <li>inline item 2</li>
-            <li>inline item 3</li>
-        </ul>
-
-        <h3>reverse ordered list</h3>
-
-        <ol reversed>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-        </ol>
-
-        <hr>
-
-        <h2>@nav</h2>
-        <nav class="navigation container">
-            <div class="nav-brand">iAmBrand</div>
-            <ul class="list-non-bullet nav-pills">
-                <li class="list-item-inline">
-                    <a class="link link-active" href="/">Home</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link" href="/">Products</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link" href="/">About</a>
-                </li>
-            </ul>
-        </nav>
-
-        <hr>
-
-        <h2>@header</h2>
-        <header class="hero">
-            <img class="hero-img" src="images/image.svg">
-            <h1 class="hero-heading">Abhinav Niranjan the <span class="heading-inverted">Full Stack Developer</span>
-            </h1>
-        </header>
-
-
-        <hr>
-        <h2>@section</h2>
-
-        <section class="section">
-            <div class="container container-center fluid">
-                <h1>fluid section</h1>
-                <p><strong>This will go to the end with little margins at both sides.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat magnam, vero dolorum, necessitatibus odit voluptates, quos repellat laboriosam quas tempora voluptate? Fuga explicabo dolorum quo reprehenderit iure laborum, labore quidem!</p>
-            </div>
-        </section>
-
-        <section class="section">
-            <div class="container container-center">
-                <h1>white section</h1>
-                <p> <strong> This will have white background.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus libero et pariatur odio vel magni a, repellat quod ab vitae, quas rem excepturi veritatis. Maiores fugit odit similique provident fuga?</p>
-            </div>
-
-        </section>
-
-        <section class="section ow">
-            <div class="container container-center">
-                <h1>Off white section</h1>
-                <p>This will have grey background. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut aliquam corrupti, fugiat veritatis voluptate laboriosam? Nobis consectetur, officia non praesentium quidem ullam? Alias ad eius corporis molestias, aperiam sint voluptate?</p>
-            </div>
-        </section>
-
-        <hr>
-
-        <h2>@footer</h2>
-
-        <footer class="footer container">
-            <div class="footer-header">Some Small heading inside footer. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita rem repellat quam. Cumque earum iure accusantium exercitationem dolor tenetur consequuntur totam? Exercitationem, quisquam ea voluptates eos vel maxime possimus consequuntur!</div>
-            <ul class="social-links list-non-bullet">
-                <li class="list-item-inline"><a class="link" href="\">socialOne</a></li>
-                <li class="list-item-inline"><a class="link" href="\">socialTwo</a></li>
-                <li class="list-item-inline"><a class="link" href="\">socialThree</a></li>
-            </ul>
-        </footer>
-
-
-        <!-- <div style="height: 30vh;"> -->
-
+    </nav>
+    <header class="hero">
+        <img class="hero-img" src="/images/image.svg">
+        <h1 class="hero-heading">Abhinav Niranjan the <span class="heading-inverted">Full Stack Developer</span>
+        </h1>
+    </header>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I'm familiar with HTML, CSS, Github, JavaScript, NodeJS, ReactJS, Redux, Python and Web Hosting.</p>
         </div>
+    </section>
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online. and you can the link of those in the projects section of the page.</p>
+            <center><a href="projects.html" class="link link-primary" >See Projects</a></center>
+        </div>
+    </section>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Hobbies</h1>
+            <p>I love Coding, Working Out, playing guitar, reading books if you consider any of those things let's get in touch! what are you waiting for? </p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+        </div>
+        <center><a href="blogs.html" class="link link-secondary" >Read Blogs</a></center>
+    </section>
+    <footer class="footer container">
+        <div class="footer-header">Let's Connect Over Social Media</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/knackofabhinav">GITHUB</a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/KnackOfAbhinav">TWITTER</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/knackofabhinav/">LINKEDIN</a></li>
+        </ul>
+    </footer>
 
 
+
+    
 </body>
-
 </html>
