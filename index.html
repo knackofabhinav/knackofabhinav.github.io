@@ -5,11 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <!-- CSS way 1: Style Tag
+        
+        <style>
+        body{
+            color: red;
+        }
+    </style> -->
+    <!-- Third way of doing CSS: external link -->
+    <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>Abhinav's Component Library</h1>
-    <p>Welcome to Abhinav Componet library. this is a part of neogcamp live session taken by tanay pratap where we are
+    <h1 id="lib-header">Abhinav's Component Library</h1>
+    <!-- style="color: red;" -->
+    <p class="para">Welcome to Abhinav Componet library. this is a part of neogcamp live session taken by tanay pratap where we are
         going to discuss about HTML and CSS.</p>
 
     <hr>
@@ -41,7 +51,7 @@
         <h3>Unordered lists</h3>
         <p>We dont want to show bullets in the unordered list. We'll remove that with CSS.</p>
 
-        <ul>
+        <ul class="para">
             <li>Item One</li>
             <li>Item Two</li>
             <li>Item Three</li>
@@ -103,7 +113,7 @@
             <h3>white section</h3>
             <p>This will have white background.</p>
         </section>
-        
+
         <section>
             <h3>Off white section</h3>
             <p>This will have grey background.</p>
