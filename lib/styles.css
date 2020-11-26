@@ -109,9 +109,12 @@ small {
     margin: auto;
 }
 .hero-img {
-    max-width: 350px;
     display: block;
     margin: auto;
+    text-align:center;
+    width:100%;
+    display:block;
+    margin:auto;
 
 }
 .hero .hero-heading {
