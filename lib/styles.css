@@ -10,6 +10,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0px;
+    line-height: 1.8;
 }
 
 /* container */
@@ -99,6 +100,7 @@ small {
 
 .hero {
     padding: 2rem;
+    padding-bottom: 0;
 }
 
 .hero .hero-img {
@@ -129,8 +131,8 @@ small {
 }
 
 .section .fluid {
-    border: 2px solid;
-    border-bottom-left-radius: 1rem;
+    /* border: 2px solid;
+    border-bottom-left-radius: 1rem; */
 }
 
 .section h1 {
@@ -141,6 +143,9 @@ small {
     background-color: var(--offwhite);
 } 
 
+.wel {
+    padding-top:0;
+}
 /* footer */
 
 .footer {
@@ -163,3 +168,4 @@ small {
 .footer ul {
     padding-inline-start: 0px;
 }
+
