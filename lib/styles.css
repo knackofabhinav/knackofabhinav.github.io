@@ -52,11 +52,31 @@ small {
     padding: 0.5rem 1rem;
 }
 
+
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     padding : 0.5rem 1rem;
+}
+
+.link-secondary:hover {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+iframe{
+    margin: auto;
+    display: block;
+}
+
+.buttons{
+    margin: auto;
+    width: auto;
+    display: block;
+    text-align: center;
 }
 
 /* lists */
@@ -144,6 +164,11 @@ small {
 
 .wel {
     padding-top:0;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
 }
 /* footer */
 
