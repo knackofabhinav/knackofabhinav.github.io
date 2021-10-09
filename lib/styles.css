@@ -42,11 +42,10 @@ small {
 
 /* links */
 .link {
-    box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
+    padding: 1rem 1rem;
+    margin: 2rem 0;
+    size: 120%;
 }
 
 .link:hover{
