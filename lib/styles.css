@@ -76,7 +76,7 @@ small {
     padding: 0.5rem 1rem;
 }
 
-iframe{
+iframe {
     margin: auto;
     display: block;
 }
@@ -145,12 +145,12 @@ nav .link-active {
     padding-bottom: 0;
 }
 
-.hero .hero-img {
+.hero .hero-img  {
     max-width: 350px;
     display: block;
     margin: auto;
 }
-.hero-img {
+.hero-img  {
     display: block;
     margin: auto;
     text-align:center;
